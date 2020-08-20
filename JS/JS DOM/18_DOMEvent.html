@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM Events</title>
+    <style>
+        #overout {
+            background-color: #D94A38;
+            width: 120px;
+            height: 20px;
+            padding: 40px;
+        }
+
+        #updown {
+            background-color: #D94A38;
+            width: 90px;
+            height: 20px;
+            padding: 40px;
+        }
+    </style>
+</head>
+
+<body onload="mymessage()">
+
+    <!-- using click -->
+    <h1 onclick="this.innerHTML = 'Ooops!'">Click on This text</h1>
+
+    <!-- using function -->
+    <h1 onclick="changetext(this)">Click on this text</h1>
+
+    <!-- HTML Event Attributes -->
+    <button onclick="displaydate()">Try it!</button>
+
+    <p id="demo"></p>
+
+    <!-- Assign Event Using the HTML DOM -->
+    <button id="mybtn">Try it!</button>
+    <p id="demo1"></p>
+
+
+    <!-- The onload and onunload Events -->
+    <p id="demo2"></p>
+
+    <!-- The Onchange Event -->
+    Enter Your name: <input type="text" id="fname" onchange="myfunction()" value=""
+        onfocus="myFunctiononfous(this)"><br><br>
+
+
+    <!-- The onmouseover and onmouseout Events -->
+    <div id="overout" onmouseover="mOver(this)" onmouseout="mOut(this)">Mouse Over Me!</div><br><br>
+
+
+    <!-- The onmousedown onmouseup and onclick events -->
+    <div id="updown" onmousedown="mDown()" onmouseup="mUp(this)">Click Me</div>
+
+    <!-- onfous -->
+    <!-- Enter your name: <input type="text" onfocus="myFunctiononfous(this)"> -->
+
+    <h1 onmouseover="style.color='red'" onmouseout="style.color='black'">
+        Mouse over this text</h1>
+
+
+    <!-- ////////////////////////////////////////// -->
+    <script>
+        function changetext(id) {
+            id.innerHTML = "demo program"
+        }
+
+        function displaydate() {
+            document.getElementById("demo").innerHTML = Date();
+        }
+
+        document.getElementById("mybtn").onclick = displaydate1;
+
+        function displaydate1() {
+            document.getElementById("demo1").innerHTML = Date();
+        }
+
+        function checkCookies() {
+            let text = "";
+            if (navigator.cookieEnabled == true) {
+                text = "cookies are enabled.";
+            }
+            else {
+                text = "cookies are not enabled.";
+            }
+
+            document.getElementById("demo2").innerHTML = text;
+        }
+
+        function myfunction() {
+            let x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+
+        }
+
+        function mOver(id) {
+            id.innerHTML = "Thank You";
+        }
+
+        function mOut(id) {
+            id.innerHTML = "Mouse Over Me"
+        }
+
+        function mDown(id) {
+
+            id.style.backgroundColor = "yellow";    
+            id.innerHTML = "release Me";
+        }
+
+        function mUp(id) {
+
+            id.style.backgroundColor = "green";
+            id.innerHTML = "Thank You";
+        }
+
+        function mymessage() {
+            alert("This message was triggered from the onload event");
+        }
+
+        function myFunctiononfous(id) {
+
+            id.style.backgroundColor = "yellow";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>

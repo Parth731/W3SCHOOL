@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM EventListener</title>
+
+    <style>
+        #myDiv1,
+        #myDiv2 {
+            background-color: coral;
+            padding: 50px;
+
+        }
+
+        #myp1,
+        #myp2 {
+            background-color: white;
+            font-size: 20px;
+            border: 1px solid;
+            padding: 20px;
+        }
+        #myDIV{
+
+            background-color: coral;
+            border: 1px solid black;
+            padding: 50px;
+            color: white;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="mybtn1">with function</button>
+    <p id="demo1"></p>
+    <button id="mybtn2">without function</button><br><br>
+
+
+    <button id="mybtn3">many event</button>
+
+    <p id="demo1"></p>
+
+    <button id="mybtn4">Multiply</button>
+    <p id="demo2"></p>
+
+    <!-- bubbling -->
+    <div id="myDiv1">
+        <h2>Bulling:</h2>
+        <p id="myp1">Click Me</p>
+    </div><br><br>
+
+    <div id="myDiv2">
+        <h2>capturing</h2>
+        <p id="myp2">Click Me</p>
+    </div><br><br>
+
+    <div id="myDIV">
+        <p>This div element has an onmousemove event handler that displays a random number every time you move your
+            mouse inside this orange field.</p>
+        <p>Click the button to remove the div's event handler.</p>
+        <button onclick="removeHandler()" id="myBtn">Remove</button>
+    </div>
+
+    <p id="demo3">0</p>
+
+    <!-- script -->
+    <script>
+
+        // syntax
+        // element.addEventListener(event, function, useCapture);
+
+
+        // Add an Event Handler to an Element
+        document.getElementById("mybtn1").addEventListener("click", displaydate);
+
+        function displaydate() {
+            document.getElementById("demo1").innerHTML = Date();
+        }
+
+        document.getElementById("mybtn2").addEventListener("click", function () { alert("Hello World!") });
+
+
+        // Add many Event Handler to the same Element
+        let x = document.getElementById("mybtn3");
+        x.addEventListener("click", myfunction);
+        x.addEventListener("click", someotherfunction);
+
+        function myfunction() {
+            alert("Hello india every one");
+        }
+
+        function someotherfunction() {
+            alert("This function was also executed!");
+        }
+
+        // Add an Event Handler to the window Object
+        window.addEventListener("resize", function () {
+            document.getElementById("demo1").innerHTML = Math.random();
+        })
+
+        // passing parameter
+        let p1 = 5;
+        let p2 = 4;
+        document.getElementById("mybtn4").addEventListener("click", function () {
+            myFunction(p1, p2);
+        })
+
+        function myFunction(p1, p2) {
+            let result = p1 * p2;
+            document.getElementById("demo2").innerHTML = result;
+        }
+
+        // Event bubbling and capturing
+        // In bubbling the inner most element's event is handled first and then the outer
+        // In capturing the outer most element's event is handled first and then the inner
+        document.getElementById("myp1").addEventListener("click", function () {
+            alert("You clicked the white element!");
+        }, false);
+
+        document.getElementById("myDiv1").addEventListener("click", function () {
+            alert("You clicked the orange element!");
+        }, false);
+
+        document.getElementById("myp2").addEventListener("click", function () {
+            alert("You clicked the white element!");
+        }, true);
+
+        document.getElementById("myDiv2").addEventListener("click", function () {
+            alert("You clicked the orange element!");
+        }, true);
+
+
+        // removeEventListener()
+        document.getElementById("myDIV").addEventListener("mouseover",myFun);
+
+        function myFun(){
+            document.getElementById("demo3").innerHTML = Math.random();
+        }
+
+        function removeHandler(){
+            document.getElementById("myDIV").removeEventListener("mouseover",myFun);
+        }
+
+        
+
+
+
+    </script>
+
+
+</body>
+
+</html>

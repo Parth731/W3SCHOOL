@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Changing HTML</title>
+</head>
+
+<body>
+
+
+    <p id="p2">Hello World !</p>
+
+    <h1 id="id1">My Heading 1</h1>
+
+    <p id="p1">
+        This is a text
+        This is a text
+        This is a text
+        This is a text
+    </p>
+
+    <button id="btn" type="button" onclick="myfunction()">Click me!</button>
+
+    <input type="button" value="Hide text" onclick="myhidebutton()">
+    <input type="button" value="Show text" onclick="myshowbutton()">
+
+    <script>
+
+        // changing HTML Style
+        //  document.getElementById(id).style.property = new style
+        document.getElementById("p2").style.color = "blue";
+
+        // change event
+        function myfunction() {
+            document.getElementById("id1").style.color = "red";
+        }
+
+        // More Example
+        function myhidebutton() {
+            document.getElementById("p1").style.visibility = "hidden";
+        }
+
+        function myshowbutton() {
+            document.getElementById("p1").style.visibility = "visible";
+        }
+
+
+
+
+
+
+
+    </script>
+
+    <p>The Paragraph above was changed by a script.</p>
+
+</body>
+
+</html>

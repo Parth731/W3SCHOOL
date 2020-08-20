@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Input form Attribute</title>
+</head>
+
+<body>
+
+    <h3>From Attribute</h3>
+    <form action="/action_page.php" id="form1">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <input type="submit" value="Submit"><br><br>
+    </form>
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" form="form1">
+
+    <h3>The Formaction Attribute</h3>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+    <input type="submit" formaction="/action_page2.php" value="Submit as Admin">
+
+    <h3>The formenctype Attribute</h3>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <input type="submit" value="Submit">
+    <input type="submit" formenctype="multipart/form-data" value="Submit as Multipart/form-data">
+
+    <h3>The formmethod Attribute</h3>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit using GET">
+    <input type="submit" formmethod="post" value="Submit using POST">
+
+    <h3>The formtarget Attribute</h3>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="submit" value="Submit">
+    <input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+
+
+    <h3>The Formnovalidate Attribute</h3>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+    <input type="submit" formnovalidate="formnovalidate" value="Submit without validation">
+
+    <h3>The novalidate Attribute</h3>
+    <label for="email">Enter your email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <input type="submit" value="Submit">
+
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Canvas Examples</title>
+</head>
+
+<body>
+
+    <h3>Canvas Examples</h3>
+    <canvas id="mycanvas" width="200" height="100" style="border: 1px solid black;">Your browser does not support the HTML canvas tag</canvas>
+
+    <h3>Add Javascript</h3>
+    <script>
+        // drow line
+        var c = document.getElementById('mycanvas');
+        var ctx = c.getContext("2d");
+        ctx.moveTo(0, 0);
+        ctx.lineT0(200, 100);
+        ctx.stroke();
+
+        // draw a circle
+        ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+
+        // draw a text
+        ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.fillText("Hello World", 10, 50);
+
+        // strock text
+        ctx = c.getContext("2d");
+        ctx.font = "30px Arial";
+        ctx.strokeText("Hello World", 10, 50);
+
+        // draw linear gradient
+        ctx = c.getContext("2d");
+        // create gradient
+        var grd = ctx.createLinearGradient(0, 0, 200, 0);
+        grd.addColorStop(0, "red");
+        grd.addColorStop(1, "white");
+        // Fill with gradient
+        ctx.fillStyle = grd;
+        ctx.fillRect(10, 10, 150, 80);
+
+        // draw image
+        ctx = c.getContext("2d");
+        var img = document.getElementById("scream");
+        ctx.drawImage(img, 10, 10);
+    </script>
+
+</body>
+
+</html>

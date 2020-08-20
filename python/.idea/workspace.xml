@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc6b1abe-999a-49b5-9b23-3df78b3d7834" name="Default Changelist" comment="project 2,3">
+      <change beforePath="$PROJECT_DIR$/python tutorial/3_Datatype.py" beforeDir="false" afterPath="$PROJECT_DIR$/python tutorial/3_Datatype.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/python tutorial" />
+  </component>
+  <component name="ProjectId" id="1gMRpqgb2LdmLSvjny4Q2tNwIYp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python tutorial" />
+  </component>
+  <component name="RunManager" selected="Python.3_Datatype">
+    <configuration name="1_Comment" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python tutorial" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python tutorial/1_Comment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3_Datatype" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Program Files\Python38\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python tutorial" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python tutorial/3_Datatype.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.3_Datatype" />
+        <item itemvalue="Python.2_Variable" />
+        <item itemvalue="Python.1_Comment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc6b1abe-999a-49b5-9b23-3df78b3d7834" name="Default Changelist" comment="" />
+      <created>1597922660940</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597922660940</updated>
+    </task>
+    <task id="LOCAL-00001" summary="project 2,3">
+      <created>1597925163833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597925163833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project 2,3" />
+    <option name="LAST_COMMIT_MESSAGE" value="project 2,3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="710" y="0" key="#1_Comment" timestamp="1597923138822">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="710" y="0" key="#1_Comment/0.0.1366.728@0.0.1366.728" timestamp="1597923138822" />
+    <state x="710" y="0" key="#2_Variable" timestamp="1597923513847">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="710" y="0" key="#2_Variable/0.0.1366.728@0.0.1366.728" timestamp="1597923513847" />
+    <state x="710" y="0" key="#3_Datatype" timestamp="1597926068289">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="710" y="0" key="#3_Datatype/0.0.1366.728@0.0.1366.728" timestamp="1597926068289" />
+    <state x="866" y="92" key="FileChooserDialogImpl" timestamp="1597922999347">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="866" y="92" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597922999347" />
+    <state width="659" height="176" key="GridCell.Tab.0.bottom" timestamp="1597926089941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="176" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1597926089941" />
+    <state width="659" height="176" key="GridCell.Tab.0.center" timestamp="1597926089941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="176" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1597926089941" />
+    <state width="659" height="176" key="GridCell.Tab.0.left" timestamp="1597926089941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="176" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1597926089941" />
+    <state width="659" height="176" key="GridCell.Tab.0.right" timestamp="1597926089941">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="659" height="176" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1597926089941" />
+    <state x="550" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597925176975">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597925176975" />
+    <state x="826" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597923319118">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="826" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597923319118" />
+  </component>
+</project>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM NodeLists</title>
+</head>
+
+<body>
+
+    <p>Hello World!</p>
+    <p>Hello India!</p>
+
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+
+    <script>
+
+        //  DOM NodeList Object
+        let myNodelist = document.querySelectorAll("p");
+        document.getElementById("demo1").innerHTML = "The innerHTML of the second paragraph is : " + myNodelist[1].innerHTML; 
+
+        // DOM NodeList Length
+        document.getElementById("demo2").innerHTML = myNodelist.length;
+
+        // style
+        let i;
+        for(i=0;i<myNodelist.length;i++){
+            myNodelist[i].style.color = "green";
+        }
+
+    </script>
+
+
+</body>
+
+</html>

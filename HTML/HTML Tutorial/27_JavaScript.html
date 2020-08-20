@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Javascript</title>
+</head>
+
+<body>
+
+    <button type="button" onclick="document.getElementById('demo1').innerHTML = Date()">Click me to display Date and
+        Time.</button>
+
+    <p id="demo1"></p>
+
+    <!-- A test of Javascript -->
+    <button type="button" onclick="myFunction()">Click Me!</button>
+    <p id="demo2">JavaScript can change the style of an HTML element.</p>
+
+
+    <!-- the html <script> tag -->
+    <script>
+        // document.getElementById("demo2").innerHTML = "hello javascript!"
+
+        function myFunction() {
+            document.getElementById("demo2").style.fontSize = "25px";
+            document.getElementById("demo2").style.color = "red";
+            document.getElementById("demo2").style.backgroundColor = "yellow";
+        }
+
+    </script>
+
+    <!-- the HTML <noscript> Tag-->
+    <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOM Navigation</title>
+</head>
+
+<body>
+
+
+    <h1 id="id01">My First Page</h1>
+    <p id="id02"></p>
+
+    <h1 id="id03">My second Page</h1>
+    <p id="id04"></p>
+
+    <h1 id="id05">My third Page</h1>
+    <p id="id06"></p>
+
+    <script>
+
+        // Navigating Between Nodes
+        /*
+            parentNode
+            childNodes[nodenumber]
+            firstChild
+            lastChild
+            nextSibling
+            previousSibling 
+        */
+
+        // DOM Nodes
+        // The value of the text node can be accessed by the node's innerHTML property
+        // document.getElementById("id02").innerHTML = document.getElementById("id01").innerHTML;
+
+        // Accessing the innerHTML property is the same as accessing the nodeValue of the first child
+        // document.getElementById("id02").innerHTML = document.getElementById("id01").childNodes[0].nodeValue;
+
+        document.getElementById("id02").innerHTML = document.getElementById("id01").firstChild.nodeValue;
+
+        // DOM Root Nodes
+        alert(document.body.innerHTML);
+        alert(document.documentElement.innerHTML);
+
+        // nodeName Property
+        /*
+            nodeName is read-only
+            nodeName of an element node is the same as the tag name
+            nodeName of an attribute node is the attribute name
+            nodeName of a text node is always #text
+            nodeName of the document node is always #document
+        
+        */
+        document.getElementById("id04").innerHTML = document.getElementById("id03").innerHTML;      //id04,id03 are node property
+
+        // nodeValue Property
+        /*
+            nodeValue for element nodes is null
+            nodeValue for text nodes is the text itself
+            nodeValue for attribute nodes is the attribute value  
+
+        */
+        // nodeType Property
+        document.getElementById("id06").innerHTML = document.getElementById("id05").nodeType;
+        document.getElementById("id06").innerHTML = document.getElementById("id05").nodeName;
+
+
+
+    </script>
+
+
+</body>
+
+</html>

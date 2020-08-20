@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML object Collection</title>
+</head>
+
+<body>
+
+    <h2>Finding HTML Element Using documnet.forms</h2>
+
+    <form id="frm1" action="">
+        First Name: <input type="text" name="fname" value="Parth"><br><br>
+
+        Last Name: <input type="text" name="lname" value= "Patel"><br><br>
+
+        
+    </form>
+    <button onclick="myfunction()">Try it!</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myfunction(){
+            let x = document.forms["frm1"];
+            let txt = "";
+            let i;
+            for(i=0;i< x.length ;i++){
+                txt += x.elements[i].value + "<br>";
+            }
+            document.getElementById("demo").innerHTML = txt;
+        }
+        
+    </script>
+
+
+
+</body>
+
+</html>

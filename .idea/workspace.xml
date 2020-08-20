@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="baef48b1-5b71-4f43-b9ff-1198e418ec13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/W3School.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/python tutorial/3_Datatype.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/python tutorial/3_Datatype.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/python/python tutorial" />
+  </component>
+  <component name="ProjectId" id="1gMYpAay0OjAT24b3dT7gDKakfW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baef48b1-5b71-4f43-b9ff-1198e418ec13" name="Default Changelist" comment="" />
+      <created>1597926108692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597926108692</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="804" y="105" key="FileChooserDialogImpl" timestamp="1597926817388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="804" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1597926817388" />
+    <state x="885" y="261" key="Github.ShareDialog" timestamp="1597926513128">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="885" y="261" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1597926513128" />
+    <state x="550" y="96" key="Vcs.Push.Dialog.v2" timestamp="1597926219854">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597926219854" />
+    <state x="806" y="270" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1597926914241">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="806" y="270" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1366.728@0.0.1366.728" timestamp="1597926914241" />
+  </component>
+</project>

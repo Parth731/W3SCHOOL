@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document.anchors</title>
+</head>
+<body>
+    
+    <h2>Finding HTML Elements Using document.anchors</h2>
+
+    <a name="html">HTML Tutorial</a><br>
+    <a name="CSS">CSS Tutorial</a><br>
+    <a name="XML">XML Tutorial</a><br>
+
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML = 
+        document.anchors.length;
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS HTML DOM Elements</title>
+</head>
+
+<body>
+
+    <p id="intro">Hello Wold!</p>
+    
+    <p>This is paragraph 2</p>
+
+    <div id="main">
+        <p>The DOM is very useful</p>
+        
+        <p>This element demonstrates the <b>getElementsByTagName</b> method.</p>
+    </div>
+
+    <p class="intro1">The DOM is very useful.</p>
+    <p class="intro1">This example demonstrates the <b>getElementsByClassName </b>method.</p>
+
+
+    <br><br><p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <p id="demo5"></p>
+    <script>
+        // finding HTML Element
+
+        // by id
+        // by class name
+        // by tag name
+        // by css selectors
+        // by HTML Object collections
+
+        // /////////////////////////////
+
+        // finding HTML Element by ID
+        let myelement = document.getElementById("intro");
+        document.getElementById("demo1").innerHTML = "The text from the intro paragraph id " + myelement.innerHTML;
+
+        // ///////////////////////////////// 
+
+        // finding HTML Element by tagname
+        let x = document.getElementsByTagName("p");
+        document.getElementById("demo2").innerHTML = "The text in first paragraph (index 0) is : " + x[1].innerHTML;
+
+       let x1 = document.getElementById("main");
+       let y = x1.getElementsByTagName("p");
+       document.getElementById("demo3").innerHTML = y[0].innerHTML
+
+        // //////////////////////////////////////////////
+
+        // findig HTML Elements by classname
+        x = document.getElementsByClassName("intro1");
+        document.getElementById("demo4").innerHTML = x[1].innerHTML;
+
+        // //////////////////////////////////////
+
+        // finding HTML Element by CSS Selectors
+        x = document.querySelectorAll("p.intro1");
+        document.getElementById("demo5").innerHTML = x[0].innerHTML;
+
+
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantic Elements</title>
+    <style>
+        .all-browsers {
+            margin: 0;
+            padding: 5px;
+            background-color: lightgray;
+        }
+
+        .all-browsers>h1,
+        .browser {
+            margin: 10px;
+            padding: 5px;
+        }
+
+        .browser {
+            background: white;
+        }
+
+        .browser>h2,
+        p {
+            margin: 4px;
+            font-size: 90%;
+        }
+
+        aside {
+
+            width: 30%;
+            float: right;
+            font-style: italic;
+            padding-left: 15px;
+            margin-left: 15px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 
+        A semantic element clearly describes its meaning to both the browser and the developer.
+
+        => Non-semantic
+            <div> and <span>
+
+        => semantic
+                <form>,<table>,<article>
+
+    -->
+
+    <h1>Section:</h1>
+    <!-- HTML <section> Element -->
+    <section>
+        <h1>WWF</h1>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the
+            conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was
+            founded in 1961.</p>
+    </section>
+
+    <section>
+        <h1>WWF's Panda symbol</h1>
+        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi
+            Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of
+            WWF.</p>
+    </section>
+
+
+    <h1>Article:</h1>
+    <!-- HTML <article> Element-->
+    <main>
+        <h1>Most Popular Browsers</h1>
+        <article class="all-browsers">
+            <h2>Google Chrome</h2>
+            <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular
+                web
+                browser today!</p>
+        </article>
+
+        <article class="browser">
+            <h2>Mozilla Firefox</h2>
+            <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
+                popular
+                web browser since January, 2018.</p>
+        </article>
+
+        <article class="browser">
+            <h2>Microsoft Edge</h2>
+            <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced
+                Internet
+                Explorer.</p>
+        </article>
+    </main>
+
+    <!-- HTML <header> Element -->
+    <article>
+        <header>
+            <h1>What Does WWF Do?</h1>
+            <p>WWF's mission:</p>
+        </header>
+        <p>WWF's mission is to stop the degradation of our planet's natural environment,
+            and build a future in which humans live in harmony with nature.</p>
+    </article>
+
+    <!-- HTML <footer> Element -->
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+    </footer>
+
+
+    <!-- HTML <nav> Element -->
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+    </nav>
+
+    <!-- HTML <aside> Element-->
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great
+        summer together with my family!</p>
+
+    <aside>
+        <p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting attractions, international
+            pavilions, award-winning fireworks and seasonal special events.</p>
+    </aside>
+
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great
+        summer together with my family!</p>
+    <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great
+        summer together with my family!</p>
+
+
+    <!-- HTML <figure> and <figcaption> Elements -->
+    <figure>
+        <img src="Quotes_3.jpg" alt="Trulli" style="width:100%">
+        <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption>
+    </figure>
+
+    <!-- HTML <details> and <summary> tag-->
+    <details>
+        <summary>Epcot Center</summary>
+        <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions,
+            award-winning fireworks and seasonal special events.</p>
+    </details>
+
+    <!-- HTML <mark> Tag-->
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+
+    <!-- HTML <time> -->
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday</p>
+    <p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+</body>
+
+</html>

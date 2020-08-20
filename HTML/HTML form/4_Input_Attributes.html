@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Attributes</title>
+</head>
+
+<body>
+
+    <h3>the value Attribute</h3>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+    <h3>the readonly attribute</h3>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John" readonly><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+    <h3>disabled attribute</h3>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John" disabled><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+
+    <h3>the size attribute</h3>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" size="50"><br>
+    <label for="pin">PIN:</label><br>
+    <input type="text" id="pin" name="pin" size="4"><br><br>
+
+    <h3>the maxlength attribute</h3>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" size="50"><br>
+    <label for="pin">PIN:</label><br>
+    <input type="text" id="pin" name="pin" maxlength="30" size="4">
+
+    <h3>The min and max attribute</h3>
+    <label for="datemax">Enter a date before 1980-01-01:</label>
+    <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+    <label for="datemin">Enter a date after 2000-01-01:</label>
+    <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+
+    <label for="quantity">Quantity (between 1 and 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5">
+
+
+    <h3>the multiple attribute</h3>
+    <label for="files">Select files:</label>
+    <input type="file" id="files" name="files" multiple>
+
+    <h3>The pattern Attribute</h3>
+    <label for="country_code">Country code:</label>
+    <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+
+    <h3>The placeholder attribute</h3>
+    <label for="phone">Enter a phone number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+
+    <h3>The required Attribute</h3>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <h3>The Step Attribute</h3>
+    <label for="points">Points:</label>
+    <input type="number" id="points" name="points" step="3">
+
+    <h3>The autofocus Attribute</h3>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" autofocus><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname">
+
+    <h3>The Height and width Attributes</h3>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <input type="image" src="img_submit.gif" alt="Submit" width="48" height="48">
+
+    <h3>The list Attribute</h3>
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Internet Explorer">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+
+    <h3>The Autocomplete Attribute</h3>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" autocomplete="on"><br><br>
+    <input type="submit" value="Submit">
+
+</body>
+
+</html>
