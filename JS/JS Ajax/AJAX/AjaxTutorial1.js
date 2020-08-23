@@ -8,10 +8,10 @@ function makerequest(){
     //1.  object create
     const xhr = new XMLHttpRequest();
     
-    //2. request sent to data.txt file
+    //2. open object
     xhr.open("GET","data.txt",true);
     
-    //4.  when reponse come, handled onreadystatechane
+    //4.  what to do when reponse is ready
     xhr.onreadystatechange = function(){
         
         if(xhr.readyState === XMLHttpRequest.DONE /*4*/){
@@ -31,6 +31,6 @@ function makerequest(){
     //3. send request
     xhr.send();
 
-    console.log("process done");
+    console.log("request send");
 
 }
